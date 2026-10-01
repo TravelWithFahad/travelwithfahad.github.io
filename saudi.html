@@ -1,39 +1,70 @@
+<header>
+<h1>Travel With <span>Fahad</span></h1>
+</header>
+
+<section class="hero">
+<h1>Saudi Arabia</h1>
+</section>
+
+<section class="content">
+
+<h2>Discover Saudi Arabia</h2>
+
+<p>
+Saudi Arabia is famous for its Islamic heritage, modern cities,
+beautiful deserts, and historical landmarks.
+</p>
+
+<p>
+Top destinations include Makkah, Madinah, Riyadh, Jeddah,
+and the ancient city of AlUla.
+</p>
+
+<a href="countries.html" class="btn">← Back to Countries</a>
+
+</section>
+
 <!-- STATS -->
+
 <section class="stats">
-  <div class="stat">
-    <h2>50K+</h2>
-    <p>Travelers</p>
-  </div>
 
-  <div class="stat">
-    <h2>100+</h2>
-    <p>Destinations</p>
-  </div>
+<div class="stat">
+<h2>50K+</h2>
+<p>Travelers</p>
+</div>
 
-  <div class="stat">
-    <h2>4.9★</h2>
-    <p>Rating</p>
-  </div>
+<div class="stat">
+<h2>100+</h2>
+<p>Destinations</p>
+</div>
 
-  <div class="stat">
-    <h2>24/7</h2>
-    <p>Support</p>
-  </div>
+<div class="stat">
+<h2>4.9★</h2>
+<p>Rating</p>
+</div>
+
+<div class="stat">
+<h2>24/7</h2>
+<p>Support</p>
+</div>
+
 </section>
 
 <!-- TOP DESTINATIONS -->
+
 <section class="destinations">
+
 <h2>Top Destinations</h2>
 
 <div class="cards">
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?w=800">
+<img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=800">
 <h3>Makkah</h3>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=800">
+<img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?w=800">
 <h3>Madinah</h3>
 </div>
 
@@ -42,22 +73,37 @@
 <h3>Riyadh</h3>
 </div>
 
+<div class="card">
+<img src="https://images.unsplash.com/photo-1577717903315-1691ae25ab3f?w=800">
+<h3>AlUla</h3>
 </div>
+
+</div>
+
 </section>
 
 <!-- GALLERY -->
+
 <section class="gallery">
-<h2>Saudi Gallery</h2>
+
+<h2>Saudi Arabia Gallery</h2>
 
 <div class="gallery-grid">
-<img src="https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?w=800">
-<img src="https://images.unsplash.com/photo-1564769625905-50e93615e769?w=800">
-<img src="https://images.unsplash.com/photo-1577587230708-187fdbef4d91?w=800">
+
+<img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?w=800">
+
+<img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=800">
+
+<img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?w=800">
+
 </div>
+
 </section>
 
 <!-- TESTIMONIALS -->
+
 <section class="reviews">
+
 <h2>Traveler Reviews</h2>
 
 <div class="review-box">
@@ -71,12 +117,90 @@
 </div>
 
 </section>
+
+<footer>
+© 2026 Travel With Fahad. All Rights Reserved.
+</footer>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#050505;
+color:white;
+}
+
+header{
+background:#000;
+padding:20px;
+text-align:center;
+border-bottom:1px solid #222;
+}
+
+h1 span{
+color:#ff1537;
+}
+
+.hero{
+height:60vh;
+background:
+linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url('https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1600');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.content{
+padding:60px 20px;
+max-width:1000px;
+margin:auto;
+background:#050505;
+}
+
+.content h2{
+color:#ff1537;
+margin-bottom:15px;
+}
+
+.content p{
+line-height:1.8;
+color:#ccc;
+margin-bottom:20px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#ff1537;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+background:#ff3b58;
+}
+
 .stats{
 display:flex;
 justify-content:center;
 gap:20px;
 flex-wrap:wrap;
 padding:60px 20px;
+background:#050505;
 }
 
 .stat{
@@ -92,6 +216,7 @@ border-radius:15px;
 .reviews{
 padding:70px 20px;
 text-align:center;
+background:#050505;
 }
 
 .cards{
@@ -120,6 +245,7 @@ object-fit:cover;
 
 .card h3{
 padding:15px;
+color:white;
 }
 
 .gallery-grid{
@@ -147,4 +273,12 @@ padding:25px;
 margin:20px auto;
 max-width:700px;
 border-radius:15px;
+}
+
+footer{
+background:#000;
+padding:20px;
+text-align:center;
+margin-top:40px;
+border-top:1px solid #222;
 }
