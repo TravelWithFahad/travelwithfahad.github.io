@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Countries - Travel With Fahad</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+body{
+background:#050505;
+color:white;
+}
+
+header{
+background:#000;
+padding:20px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #222;
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+}
+
+.logo span{
+color:#ff1537;
+}
+
+.hero{
+height:50vh;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1488085061387-422e29b40080');
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:70px;
+}
+
+.hero span{
+color:#ff1537;
+}
+
+.section{
+padding:80px 50px;
+}
+
+.country-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.country-card{
+background:#0d0d0d;
+border:1px solid #222;
+border-radius:20px;
+overflow:hidden;
+transition:.4s;
+}
+
+.country-card:hover{
+transform:translateY(-8px);
+border-color:#ff1537;
+}
+
+.country-card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.country-info{
+padding:20px;
+}
+
+.country-info h3{
+margin-bottom:10px;
+font-size:28px;
+}
+
+.country-info p{
+color:#bbb;
+margin-bottom:15px;
+line-height:1.6;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#ff1537;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-weight:bold;
+}
+
+footer{
+background:#090909;
+padding:30px;
+text-align:center;
+border-top:1px solid #222;
+color:#888;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+Travel With <span>Fahad</span>
+</div>
+</header>
+
+<section class="hero">
+<h1>Explore <span>Countries</span></h1>
+</section>
+
+<section class="section">
+
+<div class="country-grid">
+
+<div class="country-card">
+<img src="https://images.unsplash.com/photo-1577587230708-187fdbef4d91">
+<div class="country-info">
+<h3>Pakistan</h3>
+<p>Explore Pakistan's mountains, culture and beautiful cities.</p>
+<a href="pakistan.html" class="btn">View Details</a>
+</div>
+</div>
+
+<div class="country-card">
+<img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c">
+<div class="country-info">
+<h3>UAE</h3>
+<p>Discover Dubai, Abu Dhabi and luxury travel experiences.</p>
+<a href="uae.html" class="btn">View Details</a>
+</div>
+</div>
+
+<div class="country-card">
+<img src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745">
+<div class="country-info">
+<h3>Saudi Arabia</h3>
+<p>Visit Makkah, Madinah and Riyadh with complete guidance.</p>
+<a href="saudi.html" class="btn">View Details</a>
+</div>
+</div>
+
+<div class="country-card">
+<img src="https://images.unsplash.com/photo-1527838832700-5059252407fa">
+<div class="country-info">
+<h3>Turkey</h3>
+<p>Explore Istanbul, Cappadocia and Turkish culture.</p>
+<a href="turkey.html" class="btn">View Details</a>
+</div>
+</div>
+
+<div class="country-card">
+<img src="https://images.unsplash.com/photo-1518105779142-d975f22f1b0a">
+<div class="country-info">
+<h3>India</h3>
+<p>Visit Delhi, Mumbai and famous cultural landmarks.</p>
+<a href="india.html" class="btn">View Details</a>
+</div>
+</div>
+
+<div class="country-card">
+<img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3">
+<div class="country-info">
+<h3>Bangladesh</h3>
+<p>Discover Dhaka, Cox's Bazar and rich traditions.</p>
+<a href="bangladesh.html" class="btn">View Details</a>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2025 Travel With Fahad - All Rights Reserved
+</footer>
+
+</body>
+</html>
