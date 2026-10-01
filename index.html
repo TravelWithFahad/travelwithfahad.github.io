@@ -1,1 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel With Fahad</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#F8FAFC;
+color:#1F2937;
+}
+
+nav{
+background:#0A2540;
+padding:15px 20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.hero{
+height:420px;
+background:linear-gradient(rgba(10,37,64,.65),rgba(10,37,64,.65)),
+url('https://images.unsplash.com/photo-1436491865332-7a61a109cc05');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+.btn{
+background:#F4B400;
+color:white;
+padding:12px 25px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.section{
+padding:50px 20px;
+text-align:center;
+}
+
+.section h2{
+margin-bottom:25px;
+color:#0A2540;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:15px;
+max-width:1100px;
+margin:auto;
+}
+
+.card{
+background:#111827;
+color:white;
+padding:20px;
+border-radius:15px;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+}
+
+.card:hover{
+transform:translateY(-3px);
+}
+
+footer{
+background:#0A2540;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">✈️ Travel With Fahad</div>
+</nav>
+
+<section class="hero">
+<h1>Explore The World</h1>
+<p>Visa Guides • Flights • Hotels • Destinations</p>
+<a href="#" class="btn">Start Journey</a>
+</section>
+
+<section class="section">
+<h2>🌍 Popular Destinations</h2>
+
+<div class="grid">
+<a href="#" class="card">🇵🇰 Pakistan</a>
+<a href="#" class="card">🇸🇦 Saudi Arabia</a>
+<a href="#" class="card">🇦🇪 UAE</a>
+<a href="#" class="card">🇹🇷 Turkey</a>
+<a href="#" class="card">🇮🇳 India</a>
+<a href="#" class="card">🇧🇩 Bangladesh</a>
+<a href="#" class="card">🇦🇿 Azerbaijan</a>
+<a href="#" class="card">🇲🇾 Malaysia</a>
+<a href="#" class="card">🇶🇦 Qatar</a>
+<a href="#" class="card">🇴🇲 Oman</a>
+<a href="#" class="card">🇧🇭 Bahrain</a>
+<a href="#" class="card">🇰🇼 Kuwait</a>
+<a href="#" class="card">🇲🇽 Mexico</a>
+</div>
+</section>
+
+<section class="section">
+<h2>📄 Visa Guides</h2>
+<p>Country-specific visa and travel information.</p>
+</section>
+
+<section class="section">
+<h2>🛫 Popular Routes</h2>
+<p>Pakistan ↔ Saudi Arabia • UAE • Turkey • Malaysia • Qatar</p>
+</section>
+
+<footer>
+© 2026 Travel With Fahad
+</footer>
+
+</body>
+</html>
